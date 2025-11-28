@@ -1,8 +1,35 @@
 .color-title {
   margin-top: 2rem;
-  font-weight: normal;
 }
 .all {
   background: linear-gradient(blue, crimson);
-  margin-left: -10px;
+}
+.ml2 {
+  margin-left: -20px;
+}
+
+.checkmark-white:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.sidebar-label-container input:checked ~ .checkmark-white:after {
+  display: block;
+}
+.checkmark-white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+.sidebar-label-container .checkmark-white:after {
+  top: 5.2px;
+  left: 5.2px;
+  width: 7.5px;
+  height: 7.5px;
+  border-radius: 50%;
+  background: black;
 }
