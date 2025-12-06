@@ -178,4 +178,4 @@ Feel free to fork this repo and submit a PR.
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is an open source.
